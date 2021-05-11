@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079398789026",
+    "firebase_url": "https://bovappusers.firebaseio.com",
+    "project_id": "bovappusers",
+    "storage_bucket": "bovappusers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079398789026:android:2a532e2ed012a90993ccfb",
+        "android_client_info": {
+          "package_name": "com.example.bovapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079398789026-fgudg6urd1lg57o953ukdo9b9qolsobf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv3EXIauDlsOBnNRskAuAjN-Tf_DwyLwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079398789026-fgudg6urd1lg57o953ukdo9b9qolsobf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

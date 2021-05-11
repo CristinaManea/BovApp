@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFundal"
+    tools:context=".reminder.Deadline">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingTop="55dp"
+        android:text="Agenția de Plăți și Intervenții în Agricultură"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:text="Termenul limită de depunere a dosarului este:"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text=">> 15 mai"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingTop="55dp"
+        android:text="Asociația Aberdeen Angus România"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:text="Termenele limită de trimitere a anexelor sunt: "
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text=">> 10 aprilie"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text=">> 10 iulie"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text=">> 10 octombrie"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text=">> 10 ianuarie"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoUtile.EchipamenteFragment"
+    android:background="@color/colorFundal">
+
+
+    <Button
+        android:id="@+id/butonBristrivet"
+        android:layout_width="88dp"
+        android:layout_height="37dp"
+        android:background="@drawable/buton_site"
+        android:text="Bistrivet"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonAltius"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvEchipMed"
+        android:layout_width="315dp"
+        android:layout_height="54dp"
+        android:text="Furnizorii de echipamente medicale recomandați"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+
+    <Button
+        android:id="@+id/butonRomvac"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buton_site"
+        android:text="Romvac"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEchipMed"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/butonFarmavet"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:background="@drawable/buton_site"
+        android:text="Farmavet"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonRomvac"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/butonAltius"
+        android:layout_width="93dp"
+        android:layout_height="27dp"
+        android:background="@drawable/buton_site"
+        android:text="Altius"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonFarmavet"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvEchipZoo"
+        android:layout_width="376dp"
+        android:layout_height="44dp"
+        android:text="Furnizorii de echipamente zootehnice recomandați"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonBristrivet"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/butonKismetal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_site"
+        android:text="Kismetal"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEchipZoo"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/butonFerrobull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_site"
+        android:text="Ferrobull"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonKismetal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/butonSuperFarmLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_site"
+        android:text="SuperFarmLand"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonFerrobull"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/butonDcmZootehnie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_site"
+        android:text="DcmZootehnie"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonSuperFarmLand"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/butonBentleyFarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton_site"
+        android:text="BentleyFarm"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonDcmZootehnie"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

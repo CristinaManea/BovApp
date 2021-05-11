@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bovapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".reminder.notification.App"
+        android:allowBackup="true"
+        android:icon="@drawable/login_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".documente.anexaVitei.adauga.ApiACtivity"></activity>
+        <activity android:name=".documente.anexaVitei.adauga.RestActivity" />
+        <activity android:name=".reminder.Deadline" />
+        <activity android:name=".documente.anexaVitei.lista.ListaVitei" />
+        <activity android:name=".documente.anexaVitei.adauga.AdaugaVitel" />
+        <activity android:name=".documente.anexaVitei.AnexaViteiActivity" />
+        <activity android:name=".documente.Asociatie" />
+        <activity android:name=".documente.Apia" />
+        <activity android:name=".documente.Documente" />
+        <activity android:name=".reminder.Reminder" />
+        <activity android:name=".conectare.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".conectare.Signup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".infoUtile.InformatiiUtile" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.bovapp.documente.anexaVitei.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoUtile.EchipamenteFragment"
+    android:background="@color/colorFundal">
+
+
+    <TextView
+        android:id="@+id/tvFur"
+        android:layout_width="331dp"
+        android:layout_height="25dp"
+        android:text="Furnizorii de furaje recomandați sunt:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <Button
+        android:id="@+id/butonBiomin"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:background="@drawable/buton_site"
+        android:text="Biomin"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonEvialis"
+        app:layout_constraintVertical_bias="0.081"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:id="@+id/butonBalbona"
+        android:layout_width="160dp"
+        android:layout_height="42dp"
+        android:background="@drawable/buton_site"
+        android:text="Balbona"
+        android:textStyle="italic"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFur"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Button
+        android:id="@+id/butonEvialis"
+        android:layout_width="135dp"
+        android:layout_height="42dp"
+        android:background="@drawable/buton_site"
+        android:text="Evialis"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonBalbona"
+        app:layout_constraintVertical_bias="0.06"
+        android:textAlignment="viewStart"/>
+
+    <Button
+        android:id="@+id/butonBergophor"
+        android:layout_width="149dp"
+        android:layout_height="46dp"
+        android:background="@drawable/buton_site"
+        android:text="Bergophor"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butonBiomin"
+        app:layout_constraintVertical_bias="0.092"
+        android:textAlignment="viewStart"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

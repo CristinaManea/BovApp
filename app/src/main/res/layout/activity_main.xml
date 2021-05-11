@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFundal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/butonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deconectare"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buton_rotund"
+        android:onClick="deconectare"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alege o opțiune:"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="23dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/butonDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Documente"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buton_rotund"/>
+
+    <Button
+        android:id="@+id/butonRem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reminder"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buton_rotund"/>
+
+    <Button
+        android:id="@+id/butonInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informatii Utile"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buton_rotund"/>
+
+
+</LinearLayout>

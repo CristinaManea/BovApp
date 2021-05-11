@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">BovApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reminder">Pentru a primi o notificare cu privire la data reproducerii taurinei, vă rugăm introduceți datele și înregistrați!</string>
+    <string name="apia_dosar">Întocmirea dosarului pentru Agenția de Plăți și Intervenții în Agricultură (APIA), constă în:</string>
+    <string name="asociatie_dosar">Întocmirea dosarului pentru Asociația Abeerden Angus (AAA), constă în:</string>
+
+    <string-array name="sex">
+        <item>Sex</item>
+        <item>Mascul</item>
+        <item>Femela</item>
+    </string-array>
+
+    <string-array name="gestatia">
+        <item>Gestatia</item>
+        <item>Insamantare artificiala</item>
+        <item>Monta naturala</item>
+    </string-array>
+
+    <string-array name="embriotransfer">
+        <item>Embriotransfer</item>
+        <item>Da</item>
+        <item>Nu</item>
+    </string-array>
+
+    <string-array name="usurintaFatara">
+        <item>Usurinta fatare</item>
+        <item>Usoara fara asistenta</item>
+        <item>Usoara cu asistenta</item>
+        <item>Dificila</item>
+        <item>Cezariana</item>
+        <item>Embriotomie</item>
+    </string-array>
+
+    <string-array name="avort">
+        <item>Avort</item>
+        <item>Da</item>
+        <item>Nu</item>
+    </string-array>
+
+    <string-array name="fatareGemerala">
+        <item>Fatare gemerala</item>
+        <item>Da</item>
+        <item>Nu</item>
+    </string-array>
+
+    <string-array name="culoare">
+        <item>Culoare</item>
+        <item>Negru</item>
+        <item>Rosu</item>
+    </string-array>
+
+</resources>

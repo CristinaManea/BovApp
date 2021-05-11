@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFundal"
+    tools:context=".documente.Documente">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/apia_icon"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnApia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agenția de Plăți și Intervenții în Agricultură"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton_rotund"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/aaa_icon"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnAsociatie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asociația Aberdeen Angus"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton_rotund"
+        android:layout_marginLeft="65dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+</LinearLayout>

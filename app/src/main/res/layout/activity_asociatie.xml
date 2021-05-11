@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFundal"
+    tools:context=".documente.Apia">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:fontFamily="serif"
+        android:paddingTop="55dp"
+        android:text="@string/asociatie_dosar"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/btnCerereA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Cerere tip"
+        android:background="@drawable/buton_rotund" />
+
+    <Button
+        android:id="@+id/btnAnexaMonte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Anexă Monte"
+        android:background="@drawable/buton_rotund"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnAnexaVitei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Anexă Viței"
+        android:background="@drawable/buton_rotund"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnAnexaIntIes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Anexă Intrări - Ieșiri"
+        android:background="@drawable/buton_rotund"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
