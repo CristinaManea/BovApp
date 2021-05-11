@@ -72,7 +72,6 @@ public class AdaugaVitel extends AppCompatActivity {
         spnAvort = findViewById(R.id.spnAvort);
         spnFatareGemerala = findViewById(R.id.spnFatareGemerala);
         spnCuloare = findViewById(R.id.spnCuloare);
-buttonapi= findViewById(R.id.buttonAPI);
         btnInformation= findViewById((R.id.btnInformation));
 
         ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(getApplicationContext(),R.array.sex,R.layout.support_simple_spinner_dropdown_item);
